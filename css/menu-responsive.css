@@ -1,0 +1,104 @@
+@media screen and (min-width:245px){
+    #nav{
+        height:6em;
+    }
+    #menu-concha{
+        width:5em;
+        height:5em;
+    }
+    .menu-responsive{
+        margin-top:6.1em;
+        background:#000c;
+      }
+    #nav > .menu-responsive > ul > li > a{
+        font-size:2em;
+    }
+
+}
+
+
+@media screen and (min-width:300px){
+    #logo-nav{
+        display:block;
+    }
+}
+@media screen and (min-width:320px){
+    #logo-nav{
+        margin:2em 0 0 1em;
+        width:10em;
+        height:2.3em;
+    }
+    #menu-concha{
+        float:right;
+        width:5em;
+        height:5em;
+        margin:.8em 1.5em 0 0;
+    }
+}
+
+@media screen and (min-width:415px){
+    #logo-nav{
+        margin:1.5em 0 0 1em;
+        width:13em;
+        height:3em;
+    }
+}
+
+@media screen and (min-width:768px){
+    #menu-concha{
+        display:none;
+        float:none;
+    }
+    #nav{
+        overflow:hidden;
+        height:5em;
+    }
+    #logo-nav{
+        position:relative;
+        margin:.8em 0 0 1em;
+        width:13em;
+        height:3.5em;
+        background-image:url("../assets/images/baseline-logo-black.webp");
+        margin-right:1.5em;
+    }
+    .hidden{
+        display:flex;
+    }
+    .menu-responsive{
+        position:absolute;
+        justify-content:flex-end;
+        align-items: center;
+        margin-top:0;
+        background:none;
+        height:5em;
+    }
+    #nav > .menu-responsive > ul{
+        display:flex;
+        flex-direction: row;
+    }
+    #nav > .menu-responsive > ul > li{
+        display:flex;
+        margin-right:20px;
+        margin-top:0;
+    }
+    #nav > .menu-responsive > ul > li > a{
+        font-size:1.1em;
+        
+    }
+}
+
+@media screen and (min-width:925px){
+    #nav > .menu-responsive > ul > li > a{
+        font-size:1.3em;
+    }
+}
+@media screen and (min-width:1200px){
+    #nav > .menu-responsive > ul > li > a{
+        font-size:2em;
+    }
+}
+@media screen and (min-width:1500px){
+    #nav > .menu-responsive > ul > li{
+        margin-right:40px;
+    }
+}
