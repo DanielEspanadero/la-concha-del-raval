@@ -4,19 +4,21 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Daniel Españadero">
     <meta name="description"
         content="La Concha es un must del barrio barcelonés del Raval. Para fumar una cachimba, disfrutar de un té con pasta árabe, saborear un delicioso cóctel o bailar hasta la madrugada bajo la atenta mirada de Sara Montiel… Estamos en el corazón del Barrio Chino, cerca de las Ramblas, de la Filmoteca y del puerto de Barcelona. ">
     <meta name="copyright" content="La concha del raval">
     <title>La Concha del Raval</title>
-    <link rel=“canonical” href=“https://https://laconchadelraval.com/” />
+    <link rel=“canonical” href=“https://laconchadelraval.com/”>
     <link rel="icon" href="assets/images/concha.ico">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href="css/responsive.css">
-    <link rel="stylesheet" type="text/css" href="css/menu.css">
-    <link rel="stylesheet" type="text/css" href="css/menu-responsive.css">
-    <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript" src="js/menu.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/01-principal/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/01-principal/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/01-principal/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/01-principal/menu-responsive.css">
+    <script type="text/javascript" src="js/01-principal/index.js"></script>
+    <script type="text/javascript" src="js/01-principal/menu.js"></script>
+    <script type="text/javascript" src="js/01-principal/mostrar.js"></script>
 </head>
 
 <body>
@@ -25,10 +27,10 @@
         <img alt="La concha del raval" class="concha" id="menu-concha" src="assets/images/menu-responsive.webp">
         <div class="menu-responsive menu-animation hidden">
             <ul>
-                <li><a class="links-menu" href="#first-view">INICIO</a></li>
-                <li><a class="links-menu" href="#sara-montiel">SARA MONTIEL</a></li>
-                <li><a class="links-menu" href="#instagram">INSTAGRAM</a></li>
-                <li><a class="links-menu" href="#location">UBICACIÓN</a></li>
+                <li><a class="links-menu" href="#first-view">Inicio</a></li>
+                <li><a class="links-menu" href="#sara-montiel">Sara Montiel</a></li>
+                <li><a class="links-menu" href="#instagram">Instagram</a></li>
+                <li><a class="links-menu" href="#location">Ubicación</a></li>
             </ul>
         </div>
     </nav>
@@ -42,8 +44,8 @@
             </div>
         </section>
         <section id="buttons_container">
-            <div id="sara-face_container">
-                <img alt="Sara Montiel la concha del raval" id="sara-face" src="assets/images/sara-face.webp">
+            <div id="carta_container">
+                <a href="html/carta.html"><img alt="Sara Montiel la concha del raval" id="carta" src="assets/images/menu-del-restaurante.webp"></a>
             </div>
             <div id=buttons>
                 <img alt="boton play" id="play" src="assets/images/play.png">
@@ -54,43 +56,48 @@
             <article id="second-view_container">
                 <div id="second-view_text">
                     <h2 class="title">EL ARTE DE FUMAR HOOKAH</h2>
-                    <p class="text" id="second-text">La Concha del Raval ofrece la mejor experiencia para fumar shisha.
+                    <p class="text" id="second-text">La Concha del Raval ofrece la mejor experiencia para fumar
+                        shisha.
                         Tranquilidad y diversión en el centro de Barcelona.</p>
                 </div>
-                <img id="shisha-boy" alt="El arte de fumar hookah" src="assets/images/shishaSmall3.webp">
+                <img id="shisha-boy" alt="El arte de fumar hookah"
+                    src="assets/images/shishaSmall3.webp">
             </article>
         </section>
         <section id="third-view">
             <article id="third-view_container">
                 <div id="third-view_text">
-                    <h2 class="title">LOS MEJORES SABORES PARA FUMAR CACHIMBA</h2>
-                    <p class="text" id="third-text">Menta, uva y manzana. Los mejores sabores para fumar shishalos
-                        tenemos en La Concha del Raval. Acompaña tu shisha con un buen té o con uno de nuestros
-                        cócteles.</p>
+                    <h2 class="title mostrar">LOS MEJORES SABORES PARA FUMAR CACHIMBA</h2>
+                    <p class="text mostrar" id="third-text">Menta, uva, manzana. Los mejores sabores para fumar
+                        shisha los tenemos en La Concha del Raval. Acompaña tu shisha con un buen té o con uno de
+                        nuestros cócteles.</p>
                 </div>
-                <img id="shisha-bar" alt="El arte de fumar hookah" src="assets/images/ShishaSmall2.webp">
+                <img id="shisha-bar" class="mostrar" alt="El arte de fumar hookah"
+                    src="assets/images/ShishaSmall2.webp">
             </article>
         </section>
         <section id="sara-montiel">
             <div id="first-sara_container">
                 <article id="first-sara_text">
-                    <h3 class="title">HOMENAJE A LA DIVA <span id="sara-montiel_span">SARA MONTIEL</span></h3>
-                    <p class="text">Si todavía no te hemos convencido de que la Concha del Raval es el mejor lugar para
+                    <h3 class="title mostrar">HOMENAJE A LA DIVA <span id="sara-montiel_span">SARA MONTIEL</span></h3>
+                    <p class="text mostrar">Si todavía no te hemos convencido de que la Concha del Raval es el mejor
+                        lugar para
                         fumar una shisha, ha llegado el momento de sacar la artillería pesada, nuestro local hace <span
                             id="homenaje">¡¡EL MAYOR HOMENAJE DEL MUNDO A SARA MONTIEL!!</span> Contamos con más de 300
                         fotografias de la artista y en fechas señaladas reproducimossus películas, canciones e incluso
                         fiestas en su honor. No te lo puedes perder.</p>
                 </article>
                 <div id="sara-photos_container">
-                    <img class="sara-photos sara-photo1" src="assets/images/saraMontielBig2.webp">
-                    <img class="sara-photos sara-photo2" src="assets/images/saraMontielBig3.webp">
+                    <img class="sara-photos sara-photo1 mostrar" src="assets/images/saraMontielBig2.webp">
+                    <img class="sara-photos sara-photo2 mostrar" src="assets/images/saraMontielBig3.webp">
                 </div>
             </div>
             <div id="photos-sara_local"></div>
             <div id="last-sara_container">
                 <div id="last-sara_text">
-                    <h3 class="title">NUESTRA MUSA NOS DEJÓ</h3>
-                    <p class="text">Sara Montiel cerró los ojos para siempre el 8 de abril de 2013, en su casa del
+                    <h3 class="title mostrar">NUESTRA MUSA NOS DEJÓ</h3>
+                    <p class="text mostrar">Sara Montiel cerró los ojos para siempre el 8 de abril de 2013, en su casa
+                        del
                         madrileño barrio de Salamanca. Le rendimos homenaje organizando dos noches de
                         fiestas en su honor, a las cuales acudió mucha gente para despedirse de Sarita en su “Templo
                         Barceloní”,
@@ -100,13 +107,13 @@
                 </div>
                 <div id="last-sara_video">
                     <div id="video1_container">
-                        <iframe class="youtube" id="youtube1" src="https://www.youtube.com/embed/HlAmHxp-1NU"
+                        <iframe class="youtube mostrar" id="youtube1" src="https://www.youtube.com/embed/HlAmHxp-1NU"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
                     </div>
                     <div id="video2_container">
-                        <iframe class="youtube" id="youtube2" src="https://www.youtube.com/embed/98WZaWsb3uU"
+                        <iframe class="youtube mostrar" id="youtube2" src="https://www.youtube.com/embed/98WZaWsb3uU"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>

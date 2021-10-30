@@ -160,11 +160,11 @@
     #main-text{
         font-size:1.1em;
     }
-    #sara-face_container{
+    #carta_container{
         height:5em;
         bottom:1em;
     }
-    #sara-face{
+    #carta{
         width:5em;
         height:5em;
     }
@@ -258,11 +258,11 @@
     #main-text{
         font-size:1.3em;
     }
-    #sara-face_container{
+    #carta_container{
         height:5em;
         bottom:1em;
     }
-    #sara-face{
+    #carta{
         width:5em;
         height:5em;
     }
@@ -313,10 +313,10 @@
     #main-text{
         font-size:1.4em;
     }
-    #sara-face_container{
+    #carta_container{
         height:6em;
     }
-    #sara-face{
+    #carta{
         width:6em;
         height:6em;
     }
@@ -373,11 +373,11 @@
     #main-text{
         font-size:1.1em;
     }
-    #sara-face_container{
+    #carta_container{
         height:5em;
         bottom:.5em;
     }
-    #sara-face{
+    #carta{
         width:5em;
         height:5em;
     }
@@ -462,7 +462,7 @@
         margin:1em;
     }
     #photos-sara_local{
-        background-image:url("../assets/images/cuadros-sara.webp");
+        background-image:url("../../assets/images/cuadros-sara.webp");
     }
     #last-sara_container{
         flex-direction:row;
@@ -518,7 +518,7 @@
 /* LOCATION */
 
     #location{
-        background-image:url("../assets/images/mapa-mundi.webp");
+        background-image:url("../../assets/images/mapa-mundi.webp");
     }
     #location_container{
         flex-direction:row;
@@ -616,7 +616,7 @@
 /* MAIN */
 
     #first-view{
-        background-image: url("../assets/images/conchaMedium1.webp");
+        background-image: url("../../assets/images/conchaBig1.webp");
     }
     #main-title{
         font-size:2.5em;
@@ -624,11 +624,11 @@
     #main-text{
         font-size:1.8em;
     }
-    #sara-face_container{
+    #carta_container{
         height:8em;
         bottom:2em;
     }
-    #sara-face{
+    #carta{
         width:8em;
         height:8em;
     }
@@ -636,7 +636,7 @@
 /* BUTTONS */
 
     #buttons_container{
-        background-image: url("../assets/images/conchaMedium1.webp");
+        background-image: url("../../assets/images/conchaBig1.webp");
     }
 
     #buttons{
@@ -670,7 +670,7 @@
 /* THIRD VIEW */
     
     #third-view{
-        background-image: url("../assets/images/conchaMedium1.webp");
+        background-image: url("../../assets/images/conchaBig1.webp");
     }
 
 /* SARA MONTIEL */
@@ -697,7 +697,7 @@
 /* INSTAGRAM */
 
     #instagram{
-        background-image:url("../assets/images/igBackgroundBig.webp");
+        background-image:url("../../assets/images/igBackgroundBig.webp");
     }
 
 /* SHIRTS */
@@ -732,10 +732,10 @@
     #main-text{
         font-size:1.5em;
     }
-    #sara-face_container{
+    #carta_container{
         height:5em;
     }
-    #sara-face{
+    #carta{
         width:5em;
         height:5em;
     }
@@ -765,11 +765,11 @@
     #main-text{
         font-size:2.2em;
     }
-    #sara-face_container{
+    #carta_container{
         height:8em;
         bottom:0em;
     }
-    #sara-face{
+    #carta{
         width:6em;
         height:6em;
     }
@@ -811,20 +811,11 @@
 @media screen and (min-width:1280px){
 
 /* MAIN */
-    #first-view{
-        background-image: url("../assets/images/conchaBig1.webp");
-    }
     #main-title{
         font-size:3.5em;
     }
     #main-text{
         font-size:2.5em;
-    }
-
-/* BUTTONS */
-
-    #buttons_container{
-        background-image: url("../assets/images/conchaBig1.webp");
     }
     
 /* SECOND VIEW */
@@ -841,12 +832,6 @@
     #shisha-boy, #shisha-bar{
         margin-right:4em;
         flex:1;
-    }
-    
-/* THIRD VIEW */
-
-    #third-view{
-        background-image: url("../assets/images/conchaBig1.webp");
     }
 
 /* SARA MONTIEL */
@@ -930,11 +915,11 @@
     #main-text{
         font-size:3em;
     }
-    #sara-face_container{
+    #carta_container{
         height:10em;
         bottom:3em;
     }
-    #sara-face{
+    #carta{
         width:10em;
         height:10em;
     }
