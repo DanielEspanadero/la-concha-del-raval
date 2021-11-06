@@ -1,0 +1,1 @@
+window.addEventListener("load",()=>{"use strict";const e=document.querySelectorAll(".tarde"),t=document.querySelectorAll(".noche"),o=(new Date).getHours();!function(){if(o>=22||o<=8)for(let t=0;t<e.length;t++)e[t].style.display="none";else for(let e=0;e<t.length;e++)t[e].style.display="none"}(),setTimeout("document.location.reload()",18e5)});
