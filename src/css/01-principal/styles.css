@@ -100,13 +100,10 @@ main{
 #main-text{
     font-size:.1em;
 }
-#carta_container, #carta{
+#carta_container{
     display:flex;
     position:fixed;
     justify-content:center;
-
-}
-#carta_container{
     width:100%;
     height:3em;
     bottom:1em;
